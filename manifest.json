@@ -1,11 +1,38 @@
 [
   {
-    "display_name": "EXAMPLE",
-    "value": "example",
+    "display_name": "NASA Video Archive",
+    "value": "nasa",
+    "version": "1.0",
+    "icon": "https://images.nasa.gov/images/nasa_logo.svg",
+    "type": "global",
+    "disabled": false,
+    "hasSettings": true
+  },
+  {
+    "display_name": "Jellyfin / Emby",
+    "value": "jellyfin",
+    "version": "1.0",
+    "icon": "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-transparent.svg",
+    "type": "global",
+    "disabled": false,
+    "hasSettings": true
+  },
+  {
+    "display_name": "Plex Media Server",
+    "value": "plex",
+    "version": "1.0",
+    "icon": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg",
+    "type": "global",
+    "disabled": false,
+    "hasSettings": true
+  },
+  {
+    "display_name": "WebDAV / Local Share",
+    "value": "webdav",
     "version": "1.0",
     "icon": "",
     "type": "global",
-    "hasSettings": true,
-    "disabled": false
+    "disabled": false,
+    "hasSettings": true
   }
 ]

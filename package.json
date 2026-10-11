@@ -1,7 +1,7 @@
 {
-  "name": "vega-providers",
+  "name": "vega-official-providers",
   "version": "1.0.0",
-  "description": "providers for vega-app",
+  "description": "Official, personal, and self-hosted media providers for Vega App",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
