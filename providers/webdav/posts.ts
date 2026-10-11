@@ -6,7 +6,7 @@ const VIDEO_EXTENSIONS = new Set(["mp4", "mkv", "avi", "mov", "webm", "m4v", "ts
 const CONFIG_PROMPT_POST: Post = {
   title: "Please configure WebDAV Server URL in Provider Settings",
   link: "CONFIGURE_SETTINGS",
-  image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/webdav.png",
+  image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/webdav.png",
   tag: "Setup Required",
   borderRadius: 8,
 };
@@ -106,7 +106,7 @@ export const getPosts = async function ({
         posts.push({
           title: cleanFilename(filename),
           link: href,
-          image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/video_placeholder.png",
+          image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/video_placeholder.png",
           tag: sizeTag ? `${ext.toUpperCase()} • ${sizeTag}` : ext.toUpperCase(),
           borderRadius: 8,
         });

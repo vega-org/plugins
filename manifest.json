@@ -3,7 +3,7 @@
     "display_name": "NASA Video Archive",
     "value": "nasa",
     "version": "1.0",
-    "icon": "https://images.nasa.gov/images/nasa_logo.svg",
+    "icon": "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/nasa.png",
     "type": "global",
     "disabled": false,
     "hasSettings": true
@@ -12,7 +12,7 @@
     "display_name": "Jellyfin / Emby",
     "value": "jellyfin",
     "version": "1.0",
-    "icon": "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-transparent.svg",
+    "icon": "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/jellyfin.png",
     "type": "global",
     "disabled": false,
     "hasSettings": true
@@ -21,7 +21,7 @@
     "display_name": "Plex Media Server",
     "value": "plex",
     "version": "1.0",
-    "icon": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg",
+    "icon": "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/plex.png",
     "type": "global",
     "disabled": false,
     "hasSettings": true
@@ -30,7 +30,7 @@
     "display_name": "WebDAV / Local Share",
     "value": "webdav",
     "version": "1.0",
-    "icon": "",
+    "icon": "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/webdav.png",
     "type": "global",
     "disabled": false,
     "hasSettings": true
@@ -39,7 +39,7 @@
     "display_name": "Internet Archive (Classic Movies)",
     "value": "archive",
     "version": "1.0",
-    "icon": "https://archive.org/images/glogo.svg",
+    "icon": "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/archive.png",
     "type": "global",
     "disabled": false,
     "hasSettings": true

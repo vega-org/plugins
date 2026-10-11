@@ -22,7 +22,7 @@ export const getMeta = async function ({
       return {
         title: "WebDAV Network Share",
         synopsis: "Configure your WebDAV or local network storage address in Vega Provider Settings to stream video files.",
-        image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/webdav.png",
+        image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/webdav.png",
         type: "movie",
         linkList: [],
       };
@@ -50,7 +50,7 @@ export const getMeta = async function ({
     return {
       title: cleanTitle,
       synopsis: `File: ${filename}\nPath: ${decodedHref}`,
-      image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/video_placeholder.png",
+      image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/video_placeholder.png",
       type: "movie",
       linkList,
     };

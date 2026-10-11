@@ -17,7 +17,7 @@ export const getMeta = async function ({
       return {
         title: "Setup Required",
         synopsis: "Open Vega Provider Manager settings to enter your personal Plex Server URL and X-Plex-Token.",
-        image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/plex.png",
+        image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/plex.png",
         type: "movie",
         linkList: [],
       };

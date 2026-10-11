@@ -59,7 +59,7 @@ function itemToPost(item: JellyfinItem, serverUrl: string, apiKey: string): Post
 const CONFIG_PROMPT_POST: Post = {
   title: "Please configure Jellyfin Server URL & API Key in Provider Settings",
   link: "CONFIGURE_SETTINGS",
-  image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/jellyfin.png",
+  image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/jellyfin.png",
   tag: "Setup Required",
   borderRadius: 8,
 };

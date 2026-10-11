@@ -17,7 +17,7 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// ../vega-official-providers/providers/headers.ts
+// providers/headers.ts
 var headers_exports = {};
 __export(headers_exports, {
   headers: () => headers

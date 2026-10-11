@@ -13,6 +13,7 @@ class DevServer {
     this.app = express();
     this.port = 3001;
     this.distDir = path.join(__dirname, "dist");
+    this.assetsDir = path.join(__dirname, "assets");
     this.currentDir = path.join(__dirname);
 
     this.setupMiddleware();
@@ -29,8 +30,9 @@ class DevServer {
       }),
     );
 
-    // Serve static files from dist directory
+    // Serve static files from dist and assets directories
     this.app.use("/dist", express.static(this.distDir));
+    this.app.use("/assets", express.static(this.assetsDir));
 
     // JSON parsing
     this.app.use(express.json());

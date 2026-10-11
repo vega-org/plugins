@@ -18,7 +18,7 @@ export const getMeta = async function ({
       return {
         title: "Setup Required",
         synopsis: "Open Vega Provider Manager settings to enter your personal Jellyfin/Emby server address and API key.",
-        image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/jellyfin.png",
+        image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/jellyfin.png",
         type: "movie",
         linkList: [],
       };

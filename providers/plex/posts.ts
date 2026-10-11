@@ -13,7 +13,7 @@ interface PlexMetadata {
 const CONFIG_PROMPT_POST: Post = {
   title: "Please configure Plex Server URL & X-Plex-Token in Provider Settings",
   link: "CONFIGURE_SETTINGS",
-  image: "https://cdn.jsdelivr.net/gh/Zenda-Cross/vega-providers@main/assets/plex.png",
+  image: "https://cdn.jsdelivr.net/gh/vega-org/plugins@main/assets/plex.png",
   tag: "Setup Required",
   borderRadius: 8,
 };
