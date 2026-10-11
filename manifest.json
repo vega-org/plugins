@@ -34,5 +34,14 @@
     "type": "global",
     "disabled": false,
     "hasSettings": true
+  },
+  {
+    "display_name": "Internet Archive (Classic Movies)",
+    "value": "archive",
+    "version": "1.0",
+    "icon": "https://archive.org/images/glogo.svg",
+    "type": "global",
+    "disabled": false,
+    "hasSettings": true
   }
 ]
